@@ -1,0 +1,12 @@
+export const BOOKLIST = 'BOOKLIST';//分页获取图书
+export const BOOKLISTBYTYPE = 'BOOKLISTBYTYPE';//分页获取图书
+export const BOOKINFO = 'BOOKINFO';//根据id获取图书
+export const HOTBOOK = 'HOTBOOK';//获取热门书籍
+export const HOTAllBOOK = 'HOTAllBOOK';//获取热门书籍
+export const CHEAPBOOK = 'CHEAPBOOK';//获取特价书籍
+export const CHEAPALLBOOK = 'CHEAPALLBOOK';//获取所有特价书籍
+export const NEWBOOK = 'NEWBOOK';//获取最新书籍
+export const SEARCHBOOK = 'SEARCHBOOK';//查询结果数据
+export const SEARCHPARAMS = 'SEARCHPARAMS';//查询条件记录
+export const PEOPLELIKE = 'PEOPLELIKE';//读者推荐（现在拿普通的进行打乱顺序）
+export const YOULIKE = 'YOULIKE';//猜您喜欢（现在拿普通的进行打乱顺序）

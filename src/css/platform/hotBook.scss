@@ -1,0 +1,71 @@
+/*热门书籍、特价书籍*/
+.hot-book-main,.cheap-book-main{
+    width:90%;
+    margin: auto;
+    margin-bottom: 50px;
+    .tags{
+        .el-tabs__item.is-disabled {
+            font-size: 1.5em;
+            -webkit-margin-before: 0.83em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            font-weight: bold;
+            color: black;
+            padding: 0 150px 0 30px;
+        }
+        .el-tabs__header{
+            border-bottom: 1px solid #c7161c;
+        }
+        .el-tabs__item.is-active{
+            border: 1px solid #c7161c;
+            border-bottom-color: #fff;
+            border-radius: 7px 7px 0 0;
+            color: #c7161c;
+        }
+        
+    }
+    .book-list{
+        margin-bottom: 50px;
+        .result-book{
+            max-height: 250px;
+            .col{
+                width: 18%;
+                height: 20%;
+                margin:5px;
+                float:left;
+                span{
+                    margin-top: 5px;
+                    display:block;
+                    white-space:nowrap; 
+                    overflow:hidden;
+                    text-overflow:ellipsis;
+                    text-align: center;
+                }
+                img{
+                    width:80%;
+                    height:80%;
+                }
+            }
+            .col:hover{
+                border: 1px solid #C7161C
+            }
+        }
+    }
+    .right_news{
+        .item {
+            padding: 9% 0;
+            border-bottom: 1px dashed #BFCBD9;
+        }
+        .clearfix:before,.clearfix:after {
+            display: table;
+            content: "";
+          }
+        .clearfix:after {
+            clear: both
+        }
+        .box-card {
+            width: 85%;
+            height: 100%;
+        }
+    }
+}

@@ -1,0 +1,61 @@
+
+*{
+    font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6 { 
+    font-weight: normal; 
+    font-size: 100%; 
+} 
+.footer-button{
+    text-align: center;
+}
+.price-font{
+    color: red;
+    font-size: 15px;
+}
+a{
+    cursor: pointer;
+    color: #7d7d7d;
+    text-decoration: none;
+}
+a:hover{
+    color: #c7161c;
+}
+@media only screen and (max-width: 1366px) {
+    *{
+        font-size: 12px;
+    }
+    .platform-header{
+        .logo {
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+            img{
+                height: 73px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    *{
+        font-size: 10px;
+    }
+    .platform-sys{
+        .sys-img{
+            img{
+                width: 200px !important;
+                height: 100px !important;   
+            }
+        }
+    }
+    .platform-header{
+        .logo {
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+            img{
+                height: 53px;
+            }
+        }
+    }
+}
+    
